@@ -26,7 +26,7 @@ import com.megacity.server.Repository.CabsRepository;
 import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 
-// 
+//
 @Service
 public class BookingServiceImpl implements BookingService{
 
