@@ -5,7 +5,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Getter;
 import lombok.Setter;
-
+// below mention getters and  setters
 @Getter
 @Setter
 @Document( collection = "category")
@@ -16,4 +16,6 @@ public class Category {
     private String categoryName;
 
     private Double pricePerKm;
+
+
 }
